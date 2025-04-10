@@ -1,0 +1,28 @@
+# Node modules
+node_modules/
+
+# Build output
+.build/
+.cache/
+dist/
+
+# Environment variables
+.env
+.env.*.local
+
+# SQLite database files
+*.db
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS & Editor stuff
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Optional: Ignore uploads (nur falls du keine Medien versionieren willst)
+public/uploads/
